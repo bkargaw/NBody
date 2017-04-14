@@ -1,6 +1,4 @@
 public class NBody{
-
-
 	public static double readRadius(String in){
 
 		In inhandle = new In(in);
@@ -56,7 +54,6 @@ public class NBody{
 	}
 
 	public static void main(String[] args) {
-		
 		if (args.length == 0) {
 			System.out.println("Please supply proper input");
 			System.exit(0);
@@ -69,19 +66,19 @@ public class NBody{
 		double radius = readRadius (filename);
 		Planet[] planets = readPlanets (filename);
 
-		/** Sets up the universe so it goes from 
+		/** Sets up the universe so it goes from
 		  * -100, -100 up to 100, 100 */
 		StdDraw.setScale(-radius, radius);
 
 		/* Clears the drawing window. */
-		StdDraw.clear(); 
+		StdDraw.clear();
 		String universe = "images/starfield.jpg";
 		StdDraw.picture(0, 0, universe);
 
 		// draw all the plantes
 		drawPlanets(planets);
 
-	double time= 0; 
+	double time= 0;
 	int numPlanets = planets.length;
 	while (time<T){
 
@@ -102,14 +99,11 @@ public class NBody{
 
 		// move the planets to their new possition
 		drawPlanets(planets);
-		//Pause the animation for 10 milliseconds 
-		
+		//Pause the animation for 10 milliseconds
+
 
 		time = time + dt;
 	}
-	
-
-
 	}
 
 }
