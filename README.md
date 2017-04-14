@@ -11,7 +11,7 @@
 
 ## Features
   - run the NBody.class file with the inputs of T, dt, and planet.txt and watch the planets orbit the sun.
-  - The program allows you to add more images and and place the in orbit of the sun in the milky way galaxy.
+  - The program allows you to add more images and and place them in orbit of the sun in the milky way galaxy.
 
 ## Directions To Use NBody
  1. clone the repo
