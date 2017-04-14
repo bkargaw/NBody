@@ -1,6 +1,7 @@
 # NBody
  This project simulates the motion of N objects in a plane, accounting for the gravitational forces mutually affecting each object as demonstrated by Sir Issac Newton's [Law of Universal Gravitation](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation).
 
+ ![Alt Text](https://github.com/bkargaw/NBody/blob/master/assets/Nbody.png)
 
 # Tools
   - Java
@@ -11,7 +12,7 @@
 ## Features
   - run the NBody.class file with the inputs of T, dt, and planet.txt and watch the planets orbit the sun.
   - The program allows you to add more images and and place the in orbit of the sun in the milky way galaxy.
-  
+
 ## Directions To Use NBody
  1. clone the repo
  2. go the directory that contains repo and....
